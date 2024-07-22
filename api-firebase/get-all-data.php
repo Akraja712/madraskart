@@ -32,7 +32,7 @@ if (isset($config['system_timezone']) && isset($config['system_timezone_gmt'])) 
     $db->sql("SET `time_zone` = '+05:30'");
 }
 
-if (!verify_token()) {
+/*if (!verify_token()) {
     return false;
 }
 
@@ -42,7 +42,7 @@ if (!isset($_POST['accesskey'])  || trim($_POST['accesskey']) != $access_key) {
     print_r(json_encode($response));
     return false;
     exit();
-}
+}*/
 
 /* 
 get-all-data.php
