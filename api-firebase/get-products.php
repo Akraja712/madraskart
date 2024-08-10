@@ -54,7 +54,7 @@ APIs for Multi Vendor
 -------------------------------------------
 */
 
-if (!verify_token()) {
+/*if (!verify_token()) {
     return false;
 }
 
@@ -64,7 +64,7 @@ if (!isset($_POST['accesskey'])  || trim($_POST['accesskey']) != $access_key) {
     $response['message'] = "No Accsess key found!";
     print_r(json_encode($response));
     return false;
-}
+}*/
 
 if (isset($_POST['get_all_products']) && $_POST['get_all_products'] == 1) {
     /* 
